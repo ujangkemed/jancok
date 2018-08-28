@@ -103,9 +103,9 @@ def buka(d):
 		return x
 def login():
 	global log
-	us = inputD('[?]Email/HP')
+	us = inputD('[?]Email na bos')
 	pa = inputD('[?]Kata Sandi')
-	tampil('\rh[*]Sedang Login....')
+	tampil('\rh[*]Sedang Asup....')
 	buka('https://m.facebook.com')
 	br.select_form(nr=0)
 	br.form['email']=us
